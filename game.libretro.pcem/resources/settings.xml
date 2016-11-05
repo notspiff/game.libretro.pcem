@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="pcem_cpucore" values="interpreter|dynarec" default="interpreter"/>
+		<setting label="30002" type="select" id="pcem_model" values="auto|IBM PC|IBM XT|IBM PCjr|Generic XT clone|AMI XT clone|DTK XT clone|VTech Laser Turbo XT|VTech Laser XT3|Phoenix XT clone|Juko XT clone|Tandy 1000|Tandy 1000 HX|Tandy 1000 SL/2|Amstrad PC1512|Sinclair PC200|Euro PC|Olivetti M24|Amstrad PC1640|Amstrad PC2086|Amstrad PC3086|IBM AT|Commodore PC 30 III|AMI 286 clone|DELL System 200|IBM PS/1 model 2011|Compaq Deskpro 386|Acer 386SX25/N|DTK 386SX clone|Phoenix 386 clone|Amstrad MegaPC|AMI 386 clone|AMI 486 clone|AMI WinBIOS 486|DTK PKM-0038S E-2|Award SiS 496/497|Rise Computer R418|Intel Premiere/PCI|Intel Premiere/PCI II|Intel Advanced/EV|PC Partner MB500N|ASUS P/I-P53TP4XE|Acer M3a|Acer V35N|ASUS P/I-P55T2P4|Award 430VX PCI|Epox P55-VA" default="auto"/>
+		<setting label="30003" type="select" id="pcem_flash_enable" values="enabled|disabled" default="enabled"/>
+		<setting label="30004" type="select" id="pcem_fpu_enabled" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="pcem_gameblaster_enabled" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="pcem_gfxcard" values="auto|CGA|New CGA|MDA|Hercules|EGA|Compaq EGA|Super EGA|Trident TVGA8900D|Tseng ET4000|Tseng ET4000/W32p (Diamond Stealth 32)|S3 Vision864 (Paradise Bahamas 64)|S3 764/Trio64 (Number Nine 9FX)|S3 Virge|Trident TGUI9440|IBM VGA|Compaq/Paradise VGA|ATI VGA Edge-16|ATI VGA Charger|Oak OTI-067|ATI Graphics Pro Turbo (Mach64)|Cirrus Logic CL-GD5429|S3 Virge/DX|S3 732/Trio32 (Phoenix)|S3 764/Trio64 (Phoenix)|nVidia Riva TNT|Incolor|nVidia Riva 128" default="auto"/>
+		<setting label="30007" type="select" id="pcem_gus_enabled" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="pcem_overscan_enable" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="pcem_sndcard" values="auto|AdLib (No DSP)|Soundblaster 1 (DSP v1.05)|Soundblaster 1.5 (DSP v2.00)|Soundblaster 2 (DSP v2.01)|Soundblaster Pro (DSP v3.00)|Soundblaster Pro 2 (DSP v3.02 + OPL3)|Soundblaster 16 (DSP v4.05 + OPL3)|AdLib Gold|Windows Sound System|Pro Audio Spectrum 16" default="auto"/>
+		<setting label="30010" type="select" id="pcem_ssi2001_enabled" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="pcem_video_timing_speed" values="Slow VLB/PCI|Mid VLB/PCI|Fast VLB/PCI|8-bit|Slow 16-bit|Fast 16-bit" default="Slow VLB/PCI"/>
+		<setting label="30012" type="select" id="pcem_voodoo_enabled" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>
