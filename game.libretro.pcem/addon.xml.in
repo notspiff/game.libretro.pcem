@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="game.libretro.pcem" name="PCem" version="11.0.0" provider-name="Libretro">
-    <requires>
-        <import addon="game.libretro" version="1.0.0"/>
-    </requires>
-    <extension point="kodi.gameclient"
-               library_@PLATFORM@="@LIBRARY_FILENAME@">
-        <platforms></platforms>
-        <extensions>exe|cmd|bat</extensions>
-        <supports_vfs>true</supports_vfs>
-        <supports_standalone>true</supports_standalone>
-        <supports_keyboard>true</supports_keyboard>
-        <supports_mouse>true</supports_mouse>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">PCem v11.0</summary>
-      <description>PCem (short for PC Emulator) is a hypervisor and IBM PC emulator for Windows and Linux that specializes in running old operating systems and software that are designed for IBM PC compatibles. Originally developed as an IBM PC XT emulator, it later emulates other IBM PC compatible computers as well.</description>
-      <license>GPL v2.0</license>
-      <platform>@PLATFORM@</platform>
-      <nofanart>true</nofanart>
-    </extension>
+<addon id="game.libretro.pcem"
+		name="PC (PCem)"
+		version="12.0.0"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions></extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_keyboard>true</supports_keyboard>
+		<supports_mouse>true</supports_mouse>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">PC (PCem) v12 alpha</summary>
+		<description>PCem (short for PC Emulator) is a hypervisor and IBM PC emulator for Windows and Linux that specializes in running old operating systems and software that are designed for IBM PC compatibles. Originally developed as an IBM PC XT emulator, it later emulates other IBM PC compatible computers as well.</description>
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+	</extension>
 </addon>
