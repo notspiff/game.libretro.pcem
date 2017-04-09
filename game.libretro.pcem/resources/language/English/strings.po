@@ -67,3 +67,4 @@ msgstr ""
 msgctxt "#30012"
 msgid "3Dfx Voodoo add-on card (restart)"
 msgstr ""
+
